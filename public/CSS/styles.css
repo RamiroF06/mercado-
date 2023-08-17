@@ -6,7 +6,11 @@ body {
     font-family: "Roboto";
     font-size: 12px;
 }
-
+.burger-menu {
+    text-align: center;
+    background-color: blue;
+    box-sizing: border-box;
+}
 
 .bg-yellow {
     background-color: yellow;
@@ -26,7 +30,9 @@ body {
 .p-1 {
     padding: 8px;
 }
-
+.banner {
+    box-sizing: border-box;
+}
 .mx-auto {
     margin-left: auto;
     margin-right: auto;
@@ -44,7 +50,10 @@ body {
 .border-grey {
     border-color: #ebebeb;
   }
-
+.piedepagina {
+    text-align: center;
+    text-decoration: underline;
+}
   @media (min-width: 520px) {
   }
   
