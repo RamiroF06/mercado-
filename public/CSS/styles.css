@@ -26,6 +26,8 @@ body {
 .vw-90 {
     width: 90vw;
 }
+
+
 .p-1 {
     padding: 8px;
 }
@@ -61,13 +63,17 @@ body {
     right: 15px;
     top: -15px;
 }
-
+.text-xl {
+    margin-right: 8px;
+}
 .border-grey {
     border-color: #ebebeb;
   }
 .piedepagina {
     text-align: center;
     text-decoration: underline;
+    background-color: #ebebeb;
+    
 }
   @media (min-width: 520px) {
   }
