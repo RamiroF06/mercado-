@@ -23,12 +23,12 @@
             <img src="/images/logo-mercado-liebre.svg" alt="logo-mercado-liebre"/>
     </h1>
     <div class="p-2">
-        <form action="/" class="p-1 bg-white">
-            <input class= "flex-grow" type="text" name="search" placeholder="Buesca productos por nombre, marcas o palabras clave"/>
-            <button type="submit" class="bg-white">
-                <i class="fa-solid"></i>
-            </button>
-        </form>
+        <form class="searchNav" action="" method="" role="search">
+            <input type="text" placeholder="Buscar productos, marcas y más…" 
+            maxlength="120" autocapitalize="off" spellcheck="false" 
+            autocomplete="off"  />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </form>
     </div>
     
     <p class="subtitulo">
@@ -46,13 +46,29 @@
             <li><a class= "nav-link" href="#">Ingresa <i class="fa-solid fa-right-to-bracket"></i></a></li>
             <li><a class= "nav-link" href="#">Mis compras <i class="fa-solid fa-basket-shopping"></i></a></li>
         </ul>
+        <div class="burger-menu">
+            <i class="fa-solid fa-bars"></i>
+          </div>
     </nav>
-    <div class="burger-menu">
-            <i class="fas fa-bars"></i>
-    </div>
 
 </header>
 <img class="w-100"  src="/images/img-home-banner.jpg" alt="Promocion fiestas"/>
+<article class="card">
+    <img
+      src="/images/img-cafetera-moulinex.jpg"
+      alt="Cafetera moulinex"
+    />
+    <div class="cardDescription">
+      <div class="cardShipmentIcon">
+        <i class="fa-solid fa-truck"></i>
+      </div>
+      <div class="cardDescriptionValue">
+        <p class="cardDescriptionPrice">$6.770</p>
+        <p class="cardDescriptionDiscount">40% off</p>
+      </div>
+      <h3>Cafetera Moulinex</h3>
+    </div>
+  </article>
 <main class="vw-90 mx-auto">
         <section class="p-1 flex-wrap gap">
             <h2 class="title w-100">Basado en tu ultima visita</h2>
